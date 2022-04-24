@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Docker">
+	<!-- <listeners> <listener class-name = "utilities.TestListener" /> </listeners> -->
+	<test thread-count="1" parallel="classes" name="SmokeParallel">
+		<classes>
+<!-- 			<class name="docker.testcases.Containers" /> -->
+			<class name="docker.testcases.TestCase1" />
+		</classes>
+	</test> <!-- DockerTest -->
+</suite> <!-- Docker -->

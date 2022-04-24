@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Module1" parallel="classes" configfailurepolicy="continue">
+  <test name="smokeTest">
+    <classes>
+      <class name="docker.testcases.Containers"/>
+      <class name="docker.testcases.TestCase1"/>
+    </classes>
+  </test> <!-- smokeTest -->
+</suite> <!-- Module1 -->

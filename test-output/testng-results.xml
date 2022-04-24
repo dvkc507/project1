@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[=====after maximize=====]]>
+    </line>
+    <line>
+      <![CDATA[=====after get url=====]]>
+    </line>
+    <line>
+      <![CDATA[successfully clickedVerifiedCheckbox]]>
+    </line>
+    <line>
+      <![CDATA[successfully clickedOfficialimage]]>
+    </line>
+    <line>
+      <![CDATA[successfully clickedDockethubHome]]>
+    </line>
+    <line>
+      <![CDATA[successfully clickedExploreTab]]>
+    </line>
+    <line>
+      <![CDATA[successfully clickedpricingTab]]>
+    </line>
+    <line>
+      <![CDATA[successfully clickedExploreTab]]>
+    </line>
+    <line>
+      <![CDATA[=====after quit browser=====]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30733" started-at="2022-04-24T06:51:15Z" finished-at="2022-04-24T06:51:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30733" started-at="2022-04-24T06:51:15Z" finished-at="2022-04-24T06:51:45Z">
+      <class name="docker.testcases.TestCase1">
+        <test-method status="PASS" signature="classlevelsetup()[pri:0, instance:docker.testcases.TestCase1@271053e1]" name="classlevelsetup" is-config="true" duration-ms="6788" started-at="2022-04-24T12:21:15Z" finished-at="2022-04-24T12:21:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====after maximize=====]]>
+            </line>
+            <line>
+              <![CDATA[=====after get url=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- classlevelsetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:docker.testcases.TestCase1@271053e1]" name="setup" is-config="true" duration-ms="1" started-at="2022-04-24T12:21:22Z" finished-at="2022-04-24T12:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TestCase1_verifyButton()[pri:0, instance:docker.testcases.TestCase1@271053e1]" name="TestCase1_verifyButton" duration-ms="23268" started-at="2022-04-24T12:21:22Z" description="Test case1 to click on buttons" finished-at="2022-04-24T12:21:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[successfully clickedVerifiedCheckbox]]>
+            </line>
+            <line>
+              <![CDATA[successfully clickedOfficialimage]]>
+            </line>
+            <line>
+              <![CDATA[successfully clickedDockethubHome]]>
+            </line>
+            <line>
+              <![CDATA[successfully clickedExploreTab]]>
+            </line>
+            <line>
+              <![CDATA[successfully clickedpricingTab]]>
+            </line>
+            <line>
+              <![CDATA[successfully clickedExploreTab]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestCase1_verifyButton -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:docker.testcases.TestCase1@271053e1]" name="teardown" is-config="true" duration-ms="642" started-at="2022-04-24T12:21:45Z" finished-at="2022-04-24T12:21:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====after quit browser=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- docker.testcases.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
