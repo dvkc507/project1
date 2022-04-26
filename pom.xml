@@ -72,7 +72,7 @@
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
-					<!-- <configuration>
+					<!-- chaitu<configuration>
 					<includes>
 					<include>RunTestNG_docker.java</include>
 					</includes>
