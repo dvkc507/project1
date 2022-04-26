@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
       <![CDATA[=====after maximize=====]]>
@@ -29,12 +29,12 @@
       <![CDATA[=====after quit browser=====]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30733" started-at="2022-04-24T06:51:15Z" finished-at="2022-04-24T06:51:45Z">
+  <suite name="Docker" duration-ms="31819" started-at="2022-04-26T05:48:14Z" finished-at="2022-04-26T05:48:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30733" started-at="2022-04-24T06:51:15Z" finished-at="2022-04-24T06:51:45Z">
+    <test name="SmokeParallel" duration-ms="31819" started-at="2022-04-26T05:48:14Z" finished-at="2022-04-26T05:48:46Z">
       <class name="docker.testcases.TestCase1">
-        <test-method status="PASS" signature="classlevelsetup()[pri:0, instance:docker.testcases.TestCase1@271053e1]" name="classlevelsetup" is-config="true" duration-ms="6788" started-at="2022-04-24T12:21:15Z" finished-at="2022-04-24T12:21:22Z">
+        <test-method status="PASS" signature="classlevelsetup()[pri:0, instance:docker.testcases.TestCase1@4c75cab9]" name="classlevelsetup" is-config="true" duration-ms="6109" started-at="2022-04-26T11:18:14Z" finished-at="2022-04-26T11:18:20Z">
           <reporter-output>
             <line>
               <![CDATA[=====after maximize=====]]>
@@ -44,11 +44,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- classlevelsetup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:docker.testcases.TestCase1@271053e1]" name="setup" is-config="true" duration-ms="1" started-at="2022-04-24T12:21:22Z" finished-at="2022-04-24T12:21:22Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:docker.testcases.TestCase1@4c75cab9]" name="setup" is-config="true" duration-ms="1" started-at="2022-04-26T11:18:20Z" finished-at="2022-04-26T11:18:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="TestCase1_verifyButton()[pri:0, instance:docker.testcases.TestCase1@271053e1]" name="TestCase1_verifyButton" duration-ms="23268" started-at="2022-04-24T12:21:22Z" description="Test case1 to click on buttons" finished-at="2022-04-24T12:21:45Z">
+        <test-method status="PASS" signature="TestCase1_verifyButton()[pri:0, instance:docker.testcases.TestCase1@4c75cab9]" name="TestCase1_verifyButton" duration-ms="25058" started-at="2022-04-26T11:18:20Z" description="Test case1 to click on buttons" finished-at="2022-04-26T11:18:45Z">
           <reporter-output>
             <line>
               <![CDATA[successfully clickedVerifiedCheckbox]]>
@@ -70,7 +70,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- TestCase1_verifyButton -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:docker.testcases.TestCase1@271053e1]" name="teardown" is-config="true" duration-ms="642" started-at="2022-04-24T12:21:45Z" finished-at="2022-04-24T12:21:45Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:docker.testcases.TestCase1@4c75cab9]" name="teardown" is-config="true" duration-ms="622" started-at="2022-04-26T11:18:45Z" finished-at="2022-04-26T11:18:46Z">
           <reporter-output>
             <line>
               <![CDATA[=====after quit browser=====]]>
@@ -78,6 +78,6 @@
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- docker.testcases.TestCase1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- SmokeParallel -->
+  </suite> <!-- Docker -->
 </testng-results>

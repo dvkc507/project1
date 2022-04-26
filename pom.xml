@@ -77,6 +77,12 @@
 					<include>RunTestNG_docker.java</include>
 					</includes>
 					</configuration> -->
+					<configuration>
+					<suiteXmlFiles>
+						<!-- TestNG suite XML files -->
+						<suiteXmlFile>testng1.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>
